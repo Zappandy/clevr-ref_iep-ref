@@ -1,6 +1,0 @@
-[submodule "iep-ref"]
-	path = iep-ref
-	url = git@github.com:Zappandy/iep-ref.git
-[submodule "clevr-dataset-gen"]
-	path = clevr-dataset-gen
-	url = git@github.com:Zappandy/clevr-dataset-gen.git
