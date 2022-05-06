@@ -1,0 +1,1500 @@
+{
+  "info": {
+    "date": "12/01/2018", 
+    "version": "1.0", 
+    "split": "train", 
+    "license": "Creative Commons Attribution (CC-BY 4.0"
+  }, 
+  "refexps": [
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_shape", 
+          "value_inputs": [
+            "cylinder"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": 3, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "right"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            0, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            8
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "rubber"
+          ]
+        }, 
+        {
+          "inputs": [
+            9
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4
+          ], 
+          "type": "filter_shape", 
+          "value_inputs": [
+            "cube"
+          ]
+        }, 
+        {
+          "inputs": [
+            10
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            7, 
+            11
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "union", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 0, 
+      "refexp": "The objects that are the second one of the large thing(s) from right that are on the right side of the first one of the big cylinder(s) from right or the second one of the rubber block(s) from left", 
+      "template_filename": "single_or.json", 
+      "refexp_family_index": 6, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_shape", 
+          "value_inputs": [
+            "cylinder"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": 3, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "left"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": 1, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            7
+          ], 
+          "_output": [
+            0, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "behind"
+          ]
+        }, 
+        {
+          "inputs": [
+            8
+          ], 
+          "_output": [
+            5
+          ], 
+          "type": "filter_color", 
+          "value_inputs": [
+            "brown"
+          ]
+        }, 
+        {
+          "inputs": [
+            9
+          ], 
+          "_output": 5, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            10
+          ], 
+          "_output": [
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "front"
+          ]
+        }, 
+        {
+          "inputs": [
+            11
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            12
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            13
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from front"
+          ]
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 1, 
+      "refexp": "Find brown object that is behind the large thing that is on the left side of the first one of the metallic cylinder(s) from right; The second one of the big shiny object(s) from front that are in front of it", 
+      "template_filename": "three_hop.json", 
+      "refexp_family_index": 1, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": 3, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "right"
+          ]
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            0, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            5
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": 5, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            7
+          ], 
+          "_output": [
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "front"
+          ]
+        }, 
+        {
+          "inputs": [
+            8
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            9
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            10
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from left"
+          ]
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 2, 
+      "refexp": "The first one of the big metallic thing(s) from left that are in front of the large metal object that is to the right of the second one of the big thing(s) from left", 
+      "template_filename": "two_hop.json", 
+      "refexp_family_index": 1, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the sixth one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": 1, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            0, 
+            3, 
+            5
+          ], 
+          "type": "same_size", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 3, 
+      "refexp": "Any other things that are the same size as the sixth one of the object(s) from right", 
+      "template_filename": "same_relate.json", 
+      "refexp_family_index": 0, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": 3, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "right"
+          ]
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            0, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": [
+            4
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the fourth one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            7
+          ], 
+          "_output": 4, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            8
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "left"
+          ]
+        }, 
+        {
+          "inputs": [
+            9
+          ], 
+          "_output": [
+            1, 
+            3
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            10
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            5, 
+            11
+          ], 
+          "_output": [
+            0, 
+            1
+          ], 
+          "type": "union", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 4, 
+      "refexp": "The objects that are either the second one of the big object(s) from right that are right of the second one of the thing(s) from left or the second one of the big thing(s) from right that are to the left of the fourth one of the object(s) from right", 
+      "template_filename": "single_or.json", 
+      "refexp_family_index": 3, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "rubber"
+          ]
+        }, 
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the fifth one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": 3, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "behind"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            1, 
+            6
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4
+          ], 
+          "type": "union", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 5, 
+      "refexp": "The things that are rubber object(s) or the second one of the object(s) from left that are behind the fifth one of the thing(s) from right", 
+      "template_filename": "single_or.json", 
+      "refexp_family_index": 7, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            2, 
+            4
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "rubber"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            4
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            0, 
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the fourth one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            2, 
+            5
+          ], 
+          "_output": [
+            1, 
+            4
+          ], 
+          "type": "union", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 6, 
+      "refexp": "The objects that are the first one of the rubber object(s) from left or the fourth one of the big object(s) from right", 
+      "template_filename": "single_or.json", 
+      "refexp_family_index": 0, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            5
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the third one of the", 
+            "from front"
+          ]
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": 5, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "left"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            0, 
+            1, 
+            3
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the second one of the", 
+            "from right"
+          ]
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 7, 
+      "refexp": "Look at the third one of the big shiny object(s) from front; The second one of the large object(s) from right that are left of it", 
+      "template_filename": "one_hop.json", 
+      "refexp_family_index": 0, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            1, 
+            3, 
+            5
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "metal"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            5
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the third one of the", 
+            "from front"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": 5, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            1, 
+            2, 
+            3, 
+            4
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "front"
+          ]
+        }, 
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            1
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            6
+          ], 
+          "_output": 1, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            7
+          ], 
+          "_output": [
+            0, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "relate", 
+          "value_inputs": [
+            "right"
+          ]
+        }, 
+        {
+          "inputs": [
+            4, 
+            8
+          ], 
+          "_output": [
+            2, 
+            3, 
+            4
+          ], 
+          "type": "intersect", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            9
+          ], 
+          "_output": [
+            3
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 8, 
+      "refexp": "The large object(s) that are both right of the first one of the object(s) from left and in front of the third one of the metallic thing(s) from front", 
+      "template_filename": "single_and.json", 
+      "refexp_family_index": 1, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            4
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from front"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": 4, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": [
+            0, 
+            2
+          ], 
+          "type": "same_material", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 0, 
+      "image": "CLEVR_train_000000", 
+      "refexp_index": 9, 
+      "refexp": "Any other things that have the same material as the first one of the object(s) from front", 
+      "template_filename": "same_relate.json", 
+      "refexp_family_index": 2, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000000.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            8
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            5
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "large"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            0
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the first one of the", 
+            "from left"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": 0, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            4
+          ], 
+          "type": "same_color", 
+          "value_inputs": []
+        }
+      ], 
+      "image_index": 1, 
+      "image": "CLEVR_train_000001", 
+      "refexp_index": 10, 
+      "refexp": "Any other things that have the same color as the first one of the large object(s) from left", 
+      "template_filename": "same_relate.json", 
+      "refexp_family_index": 1, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000001.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            8
+          ], 
+          "type": "scene", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            0
+          ], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
+            5, 
+            7, 
+            8
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "rubber"
+          ]
+        }, 
+        {
+          "inputs": [
+            1
+          ], 
+          "_output": [
+            8
+          ], 
+          "type": "filter_ordinal", 
+          "value_inputs": [
+            "the seventh one of the", 
+            "from right"
+          ]
+        }, 
+        {
+          "inputs": [
+            2
+          ], 
+          "_output": 8, 
+          "type": "unique", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            3
+          ], 
+          "_output": [
+            0, 
+            2
+          ], 
+          "type": "same_shape", 
+          "value_inputs": []
+        }, 
+        {
+          "inputs": [
+            4
+          ], 
+          "_output": [
+            2
+          ], 
+          "type": "filter_size", 
+          "value_inputs": [
+            "small"
+          ]
+        }, 
+        {
+          "inputs": [
+            5
+          ], 
+          "_output": [
+            2
+          ], 
+          "type": "filter_material", 
+          "value_inputs": [
+            "rubber"
+          ]
+        }
+      ], 
+      "image_index": 1, 
+      "image": "CLEVR_train_000001", 
+      "refexp_index": 11, 
+      "refexp": "Any other small rubber object(s) that have the same shape as the seventh one of the matte thing(s) from right", 
+      "template_filename": "same_relate.json", 
+      "refexp_family_index": 7, 
+      "split": "train", 
+      "image_filename": "CLEVR_train_000001.png"
+    }, 
+    {
+      "program": [
+        {
+          "inputs": [], 
+          "_output": [
+            0, 
+            1, 
+            2, 
+            3, 
