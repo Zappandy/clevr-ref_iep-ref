@@ -4,6 +4,11 @@ Blender 2.79 or any other 2.7 legacy version. The scripts will not work with mor
 
 The old implementation relied on Unix command calls. These were updated to be run on a Windows system.
 
+Python 3.5 BUT AS 2022 we have to keep in mind the following warning:
+
+*DEPRECATION: Python 3.5 reached the end of its life on September 13th, 2020. Please upgrade your Python as Python 3.5 is no longer maintained. pip 21.0 will drop support for Python 3.5 in January 2021. pip 21.0 will remove support for this functionality.*
+
+
 
 # Instructions
 
